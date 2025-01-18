@@ -1,71 +1,43 @@
-## 프로젝트 소개
+## 📌 프로젝트 소개
+
+> 기존 프로젝트 gitHub 주소  
+https://github.com/Team-Roomly
 
 **숙박 및 예약 관련 여행 사이트 입니다.**
 
-**본 프로젝트는 IT코리아에서 배운 웹 개발 기술을 활용하여 응용하기 위해 만들어진 프로젝트입니다. 다양한 기능들에 대하여 프론트 및 벡엔드 기술을 실제로 적용하면서 전반적인 웹 개발 과정을 실습하며 배운 기술들을 응용하는것과 실무에서 사용할수 있는 기술들에 초첨을 두었습니다.**
+본 프로젝트는 IT코리아에서 배운 웹 개발 기술을 활용하여 응용하기 위해 만들어진 프로젝트입니다. 다양한 기능들에 대하여 프론트 및 벡엔드 기술을 실제로 적용하면서 전반적인 웹 개발 과정을 실습하며 배운 기술들을 응용하는것과 실무에서 사용할수 있는 기술들에 초첨을 두었습니다.
 
 **주제 선정 이유**
 
-- 배운 기술을 응용하고 새로운 API 모듈을 활용하며, 팀원들과 역할이 겹치지 않는 협업을 통해 다양한 경험을 쌓을 수 있는 프로젝트를 고민하던 중, 복합적인 요구사항을 충족해야 하는 여행 및 숙박 예약 사이트가 기술적 성장과 사용자 중심의 서비스 설계를 동시에 경험할 수 있는 최적의 선택이라고 판단하여 선정하였습니다.
+배운 기술을 응용하고 새로운 API 모듈을 활용하며, 팀원들과 역할이 겹치지 않는 협업을 통해 다양한 경험을 쌓을 수 있는 프로젝트를 고민하던 중, 복합적인 요구사항을 충족해야 하는 여행 및 숙박 예약 사이트가 기술적 성장과 사용자 중심의 서비스 설계를 동시에 경험할 수 있는 최적의 선택이라고 판단하여 선정하였습니다.
 
-## 개발 환경
+## 📌 개발 환경
 
 ### IDE & Tools
-
-![vsCode.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1f5d4b6d-f15b-41fc-9626-aafe35d7fa23/167bc9ae-814b-4b31-8c6c-6a7795556417/vsCode.png)
-(image.png)
-VS Code
-
-![postman.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/1f5d4b6d-f15b-41fc-9626-aafe35d7fa23/7f624c55-4f36-4ea1-ad58-af3794d387e5/postman.jpg)
-
-Post Man
-
-![workbench.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1f5d4b6d-f15b-41fc-9626-aafe35d7fa23/a3bfa91b-a5b8-4b34-9213-64f76d594b73/workbench.png)
-
-WorkBench
+VS Code: <img src="image/programImage/vsCode.png" alt="vs Code" width="50">  
+Post Man: <img src="image/programImage/postman.jpg" alt="Post Man" width="50">  
+WorkBench: <img src="image/programImage/workbench.png" alt="Post Man" width="50">
 
 ### Languages & Framework
-
 ---
 
-![TS.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1f5d4b6d-f15b-41fc-9626-aafe35d7fa23/eb66b882-19c2-4c8d-a898-ee58439d637b/TS.png)
-
-TypeScript
-
-![react.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1f5d4b6d-f15b-41fc-9626-aafe35d7fa23/568639c5-bb5a-4774-9685-1b17480dd935/react.png)
-
-React
-
-![java.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1f5d4b6d-f15b-41fc-9626-aafe35d7fa23/f968b659-e9c5-4bbe-b0f3-d0e17f3645ed/84a7f099-6c1d-415c-8b70-8d5ade1e9cd4.png)
-
-Java
-
-![css.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1f5d4b6d-f15b-41fc-9626-aafe35d7fa23/608510e3-3165-4fe5-9146-3fdc18edc2ef/css.png)
-
-CSS
-
-![springBoot.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1f5d4b6d-f15b-41fc-9626-aafe35d7fa23/4a56961a-fd3b-44ac-ba6f-031363331a31/springBoot.png)
-
-Spring Boot
+TypeScript: <img src="image/programImage/TS.png" alt="TypeScript" width="50">  
+React: <img src="image/programImage/react.png" alt="Post Man" width="50">  
+Java: <img src="image/programImage/java.png" alt="java" width="50">  
+CSS: <img src="image/programImage/css.png" alt="CSS" width="50">  
+Spring Boot: <img src="image/programImage/springBoot.png" alt="spring boot" width="50">
 
 ### Database Management System
-
 ---
 
-![mysql.webp](https://prod-files-secure.s3.us-west-2.amazonaws.com/1f5d4b6d-f15b-41fc-9626-aafe35d7fa23/820c24cc-118c-4c7f-8c8f-f214916ae5a1/mysql.webp)
-
-MySql
+MySql: <img src="image/programImage/mysql.webp" alt="My SQL" width="50">
 
 ### Version Control & Repository
-
 ---
 
-![gitHub.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1f5d4b6d-f15b-41fc-9626-aafe35d7fa23/c6242075-fb93-450c-8c7d-14aa7f7ed015/gitHub.png)
-
-GitHub
+GitHub: <img src="image/programImage/gitHub.png" alt="Git Hub" width="50">
 
 ### 외부 API
-
 ---
 
 **결제 포트원**(https://portone.io/korea/ko),
@@ -74,8 +46,6 @@ GitHub
 **Google 클라우드 지도 api**
 
 ## 📌 팀
-
----
 
 **안성준(Back-End)**
 
@@ -113,47 +83,66 @@ GitHub
 ## 📌 시연 영상 및 주요기능 소개
 
 ### ✅ ERD
-
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1f5d4b6d-f15b-41fc-9626-aafe35d7fa23/c2cbaae7-732b-4118-8489-ca519cc3606e/image.png)
+<img src="image/programImage/erd.png" alt="ERD">
 
 - 총 12개의 테이블로 구성되어 있으며 중복해서 사용하는 테이블은 연두색으로 표시 하였으며, 게스트는 분홍색 호스트는 파란색으로 표시하였습니다.
 
-### ✅ 로그인 및 회원가입
+### ✅ 로그인 및 회원가입 (게스트)
 
-- 카카오 연동하여 회원가입 및 로그인 하였습니다.
+**로그인 및 회원가입시 사용자의 편리를 위해 카카오,구글 연동하였습니다.**
 
-[회원가입및 로그인(kakao,게스트).mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/1f5d4b6d-f15b-41fc-9626-aafe35d7fa23/e4a10662-c9a6-4be4-9a1e-06cb4ec00566/%ED%9A%8C%EC%9B%90%EA%B0%80%EC%9E%85%EB%B0%8F_%EB%A1%9C%EA%B7%B8%EC%9D%B8(kakao%EA%B2%8C%EC%8A%A4%ED%8A%B8).mp4)
+#### 로그인
+- 호스트, 게스트 별 로그인 가능하도록 구현하였습니다.  
+![login View](/projectImage/login.png)
+![mainView](/projectImage/mainView.png)
+- 로그인 후 메인 페이지 상단 버튼이 로그인/회원가입 -> 마이페이지 / 로그아웃 으로 변경 됩니다.
 
-### ✅ 마이페이지
+#### 회원가입
+- 아이디 중복확인, 비밀번호 일치여부, 전화번호 중복확인, 인증번호 일치 여부를 통해 회원가입이 가능합니다.  
+![회원가입1](/projectImage/signup1.png)![회원가입2](/projectImage/signup2.png)
 
-**비밀번호 변경 및 전화번호 인증 및 변경**
+### ✅ 마이페이지 (게스트)
+**마이페이지 같은 경우 '내정보관리', '예약내역', '즐겨찾기' 로 나누어 구별할 수 있습니다.**
 
-- 현재 비밀번호를 입력하고 변경할 비밀번호를 입력하여 변경 클릭시 Id에 대한 비밀번호가 변경되며 다시 로그인 할수 있도록 구성하였습니다.
-- 전화번호는 기존의 전화번호를 불러와 보여주며 변경을 클릭하고 새로운 전화번호를 입력하고 번호에 대한 인증번호를 입력하고 변경을 클릭하면 로그아웃후 다시 로그인 할수 있도록 하였습니다.
+**내정보 관리**
+- 현재 비밀번호를 입력하고 변경할 비밀번호를 입력하여 변경 클릭시 현재 아이디에 대한 비밀번호가 변경되며 강제 로그아웃후 메인창으로 이동하도록 하였습니다.
+![my Inpomation](/projectImage/myInpomation.png)  
+- 전화번호는 기존의 전화번호를 불러와 보여주며 변경을 클릭하고 새로운 전화번호를 입력하고 중복확인을 거친 후 번호에 대한 인증번호를 입력하고 변경을 클릭하면 로그아웃후 다시 로그인 할수 있도록 하였습니다.  
+- 전화번호가 변경되면 데이터베이스에 저장되어 있던 기존의 전화번호를 자동 삭제하도록 하였습니다.  
+![phon Check1](/projectImage/phonCheck1.png)  
+![phon Check2](/projectImage/phonCheck2.png)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1f5d4b6d-f15b-41fc-9626-aafe35d7fa23/c5e19b47-8e9c-4a96-b6ab-41098e763b7b/image.png)
+**예약내역**
+- 숙소의 객실을 선택 후 결제가 완료되면 해당 숙소에 대한 숙소명, 숙소대표이미지, 호실, 인원수, 입/퇴실 시간과 총금액등을 나타낼수 있도록 하였습니다.
+- 해당 숙소에 대한 예약이 되어 있는 상태에서는 리뷰 작성이 가능하며 리뷰작성을 한 경우 해당 숙소의 리뷰 평점에 반영되도록 하였습니다.
+![review1](/projectImage/review1.png)
+![review2](/projectImage/review2.png)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1f5d4b6d-f15b-41fc-9626-aafe35d7fa23/c486d425-2b88-4a46-a4a2-c15aa794e8eb/image.png)
+**즐겨찾기**  
 
-**즐겨찾기**
+![bookmark](/projectImage/bookmark.png)
 
-- 즐겨찾기 되어 있지 않은 경우 내역이 없다는 문구와 메인페이지로 이동이 가능합니다.
-- 즐겨찾기가 되어 있을경우 해당 숙소의 대표이미지와 숙소이름, 지역을 나타내며 버튼을 클릭하여 해당 숙소의 상세페이지로 이동이 가능합니다.
-
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1f5d4b6d-f15b-41fc-9626-aafe35d7fa23/4242575e-d0eb-4303-9f66-14fd672855aa/image.png)
-
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1f5d4b6d-f15b-41fc-9626-aafe35d7fa23/ff5c5e5f-3909-465c-a0ba-da568450f1d3/image.png)
 
 ### ✅ 숙소 및 객실 등록하기 (Host)
 
-[숙소 및 객실등록.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/1f5d4b6d-f15b-41fc-9626-aafe35d7fa23/dca3f131-d073-4eaf-b693-ae086c0cdaf6/%EC%88%99%EC%86%8C_%EB%B0%8F_%EA%B0%9D%EC%8B%A4%EB%93%B1%EB%A1%9D.mp4)
+**숙소 등록**
+- 숙소에 관현 정보들을 입력할수 있습니다. 숙소 이미지중 대표 이미지를 클릭하여 대표 이미지로 자동 이미지 변환이 가능합니다.
+- 숙소 이미지는 최소 3장 이상 업로드 할수 있습니다.
+- 숙소의 종류와 시설에 대해 선택할수 있습니다.  
+![숙소등록 이미지1](/projectImage/acc1.png)  
+![숙소등록 이미지2](/projectImage/acc2.png)  
+![숙소등록 이미지3](/projectImage/acc3.png)  
 
-- 관리자의 승인을 받은 guest에 한해서 숙소 등록할수 있도록 하였습니다.
+**객실 등록**  
+- 숙소등록에 대한 업로드가 완료된 후 객실 추가 버튼을 클릭하여 객실을 추가할수 있습니다.  
+![객실등록 이미지1](/projectImage/room1.png)
+
+- 관리자의 승인을 받은 호스트에 한해서 숙소 등록할수 있도록 하였습니다.
 - 숙소가 등록이 된 상태에서 관리자의 승인이 있어야 게스트가 보는 숙소 리스트에서 등록된 숙소를 확인할 수 있습니다.
 
-### ✅ 결제 및 예약내역확인
+### ✅ 결제 기능 구현 
 
-[결제및 예약내역.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/1f5d4b6d-f15b-41fc-9626-aafe35d7fa23/430e5dad-7759-4ab6-a0b3-732c932b4124/%EA%B2%B0%EC%A0%9C%EB%B0%8F_%EC%98%88%EC%95%BD%EB%82%B4%EC%97%AD.mp4)
+![결제 이미지](/projectImage/payView.png)
 
 - 메인화면에서 지역과 체크인 체크아웃 날짜, 인원을 검색하면 해당 조건에 부합하는 숙소list를 확인할수 있습니다.
 - 원하는 숙소를 클릭하여 숙소상세보기에서 원하는 객실을 선택하여 결제 페이지로 이동합니다.
@@ -201,11 +190,11 @@ GitHub
 : 이번 프로젝트를 통해 **소통의 중요성**을 다시 한번 깊이 깨닫게 되었습니다. 프로젝트 초반에는 충분히 대화했다고 생각했지만, 서로의 이해가 달라 **의도와 다른 결과물**이 나오는 경우가 종종 있었습니다. 이로인해 **불필요한 시간 낭비**가 발생하기도 했으며, 결과적으로 목표한 기간 내에 프로젝트를 마무리하지 못하는 상황을 겪어야 했습니다. 이러한 경험은 저에게 아쉬움과 동시에 많은 배움을 주었습니다.
 앞으로는 프로젝트를 시작하기 전에 **명확한 기준을 설정**하고, 진행 사항과 과정을 팀원 간 말로만 공유하는 것이 아니라 **체계적으로 문서화**해야 한다는 필요성을 확실히 느꼈습니다. 이를 통해 팀 내 **소통 오해를 최소**화하고, 프로젝트의 효율성과 완성도를 높일 수 있을 것이라 믿습니다.
 
-**이슈사항
+**이슈사항  
 <문제>:** 프론트와 벡 연동하여 결제 api를 사용하는데 있어서 프론트에서 결제 자체가 되지 않는 문제와 결제가 완료 되어도 벡에 값이 넘어가지 않는 어려움이 있었습니다.
 
 **<해결> :** 해당 라이브러리를 제공해주는 사이트의 공식 문서를 참조하거나 구글 검색 및 chatGPT를 이용하여 문제를 해결 하였습니다. 정말 모르겠던 부분은 강사님께 질문을 통해 알게 되었습니다. 프론트와 벡의 연동되어 있는 부분이 있다보니 개발자 환경도구를 통해 값이 잘 넘어갔는지 error가 발생했는지 파악하고 수정하는 방식으로 문제를 해결하였습니다.
 
-**프로젝트 이후 ( ~ing)
-:** 완벽하게 마무리 하지 못하였기에 수료가 끝난 이후 저는 ****제가 맡았던 부분 이외에 다른 부분을 보며 왜 이렇게 코드를 짰는지 이해하게 됫으며, 중복된 코드가 있는 경우 하나의 api로 통일 하며 유지보수과 코드 간결성을 위해 노력하고 있습니다.
->
+**프로젝트 이후
+:** 목표한만큼 마무리 하지 못하였기에 수료가 끝난 이후 저는 제가 맡았던 부분 이외에 다른 부분을 보며 왜 이렇게 코드를 짰는지 이해하게 됫으며, 중복된 코드가 있는 경우 하나의 api로 통일 하며 유지보수과 코드 간결성을 위해 노력하고 있습니다.
+

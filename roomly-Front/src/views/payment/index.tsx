@@ -322,7 +322,7 @@ export default function Payment({ onPathChange }: PaymentComponentProps) {
                 <div className='page-left'>
                     <div className='payment-image'>
                         <div className='payImage'>
-                            {<img src={imageSrc} alt={roomName} />}
+                            {<img src='/images/room8.jpg' alt={roomName}/>}
                         </div>
                     </div>
                     <div className='left-box'>

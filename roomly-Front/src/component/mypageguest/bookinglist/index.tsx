@@ -13,6 +13,7 @@ import { getReservationListRequest, PostReviewRequest } from 'src/apis';
 import PostReviewRequestDto from 'src/apis/hostmypage/dto/request/post-review.request.dto'
 
 interface Props {
+    
     bookingDate: string;
     bookingPrice: number;
     accommodationImage: string;
@@ -203,17 +204,18 @@ export default function BookingList({
         <div id='bookinglist-warpper'>
                         <div className='bookinglist-box'>
                             <div className='bookinglist-list-top-deatail'>
-                                <div className='bookinglist-date'>{bookingDate}</div>
-                                <div className='bookinglist-bill'>{bookingPrice}</div>
+                                <div>예약번호: {reservationNumber}</div>
+                                <div className='bookinglist-date'>예약일: {bookingDate}</div>
+                                <div className='bookinglist-bill'>가격: {bookingPrice}</div>
                             </div>
                             <div className='bookinglist-list-main-detail'>
                                 <img className='bookinglist-list-image' src={accommodationImage} onClick={onClickListComponent} />
                                 <div className='bookinglist-hotel-detail'>
-                                    <div className='bookinglist-hotel-title'>{accommodationName}</div>
-                                    <div className='bookinglist-hotel-room'>{roomName}</div>
+                                    <div className='bookinglist-hotel-title'>숙소명: {accommodationName}</div>
+                                    <div className='bookinglist-hotel-room'>객실명: {roomName}</div>
                                 </div>
                                 <div className='bookinglist-detail-list'>
-                                    <div className='bookinglist-stay'>{totalNight}</div>
+                                    <div className='bookinglist-stay'>총 일수: {totalNight}박</div>
                                     <div className='bookinglist-start-end-time'>
                                         <div className='bookinglist-start'>입실시간:{roomCheckIn}</div>
                                         <div className='bookinglist-end'>퇴실시간:{roomCheckOut}</div>

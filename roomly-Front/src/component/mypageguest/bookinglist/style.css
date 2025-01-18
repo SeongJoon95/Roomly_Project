@@ -1,154 +1,144 @@
-:root {
-    --main-button-color: rgba(0,172,207,1);
-    --main-button-text-color: rgba(255,255,255,1);
-
-    --input-solid-color: rgba(188,188,188,1);
-    --input-text-color: rgba(201,201,201,1);
-    --mypage-text-color: rgb(92, 91, 91);
-
-    
-    --diable-button-color: rgba(157,160,165,1);
-    --error-color: rgba(255, 84, 64, 1);
-    --dark-gray-title-color: rgba(56,76,96,1);
-
-    --default-color: rgba(35, 45, 66, 1);
-}
-
-/* 페이지 css */
 #bookinglist-warpper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 5px 0px;
-
-    width: 700px;  
-    height: auto;  
-    border: solid 6px rgba(247, 219, 219, 0.637);
-
-    font-size: 15px;
-    color: rgb(75, 74, 74);
-    font-family: 'Pretendard-Regular';
-    border-radius: 5px;
+    width: 100%;
+    max-width: 1200px; /* 최대 너비를 설정하여 너무 넓어지지 않도록 */
+    margin: 0 auto; /* 가운데 정렬 */
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
 }
 
 .bookinglist-box {
-    margin: 5px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .bookinglist-list-top-deatail {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #333;
+}
 
-    width: 690px;
-
-    font-size: 15px;
-    color: rgb(75, 74, 74);
-    font-family: 'Pretendard-Regular';
+.bookinglist-date, .bookinglist-bill {
+    color: #555;
 }
 
 .bookinglist-list-main-detail {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
 }
 
 .bookinglist-list-image {
-    width: 160px;
-    height: 150px;
-
-    border-radius: 15px;
-    margin: 5px;
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 8px;
 }
 
 .bookinglist-hotel-detail {
-    display: flex;
-    flex-direction: column;
-    width: 150px;
-
-    margin: 10px 15px;
-
-    font-size: 15px;
-    color: rgb(75, 74, 74);
-    font-family: 'Pretendard-Regular';
+    flex: 1;
+    margin-left: 20px;
 }
 
-.bookinglist-hotel-title{ 
-    white-space: nowrap;
-    font-size: 20px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-.bookinglist-hotel-room{
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+.bookinglist-hotel-title, .bookinglist-hotel-room {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #333;
 }
 
 .bookinglist-detail-list {
+    flex: 1;
+    margin-left: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    margin: 10px 15px;
+}
 
+.bookinglist-stay, .bookinglist-start-end-time {
+    margin-bottom: 10px;
+}
+
+.bookinglist-start-end-time {
+    display: flex;
+    justify-content: space-between;
 }
 
 .bookinglist-count-reviewbox {
     display: flex;
     justify-content: space-between;
-    width: 320px;
+    align-items: center;
+}
+
+.bookinglist-count {
+    font-size: 14px;
+    color: #555;
 }
 
 .bookinglist-reviewbox {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
     cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+}
 
-    width: 100px;
-    height: 100%;    
-    background-color: #ff94a0;
-    border: solid 2px rgba(240, 203, 203, 0.637);;
-    border-radius: 5px;
+.bookinglist-reviewbox:hover {
+    background-color: #0056b3;
+}
 
-    font-weight: 700;
-    font-size: 18px;
-    color: rgb(255 , 255, 255, 1);
+.reviewwrite-box {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
 }
 
 .reviewwrite-inputbox {
-    width: 670px;
-    height: 60px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    outline: none;
 }
 
-.review-bottom-box {
+.reviewwrite-inputbox:focus {
+    border-color: #007bff;
+}
+
+.score-component {
     display: flex;
     justify-content: space-between;
-}
-
-.submission-button {
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    margin:5px 0px;
-    width: 100px;
-    height: 100%;    
-    background-color: #ff94a0;
-    border: solid 2px rgba(240, 203, 203, 0.637);;
-    border-radius: 5px;
-
-    font-weight: 700;
-    font-size: 18px;
-    color: rgb(255 , 255, 255, 1);
-}
-
-.score-component{
-    display: flex;
-    margin-top: 5px;
+    margin-bottom: 20px;
 }
 
 .star-icon {
     width: 20px;
     height: 20px;
-    margin-right: 5px;
+    cursor: pointer;
+}
+
+.submission-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.submission-button:hover {
+    background-color: #0056b3;
 }
