@@ -1,0 +1,77 @@
+/* .image-wrapper{
+    display: flex;
+}
+
+.roomName-gap {
+    margin-top: 20px;
+}
+
+.room-cancle-button-box {
+    display: flex;
+    gap: 10px;
+} */
+
+/* .checkIntime-Outime-box {
+    display: flex;
+    gap: 150px;
+} */
+
+.checkcheck1 {
+    gap: 5px;
+}
+
+.check {
+    display: flex;
+    gap: 100px;
+}
+
+.roomDetail {
+    margin-top: 20px;
+  }
+  
+  .kikiki {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .image-wrapper {
+    display: flex; /* Flexbox를 활성화 */
+    gap: 20px; /* 이미지 아이템 간 간격 */
+    flex-wrap: wrap; /* 너비 초과 시 다음 줄로 넘어가도록 설정 */
+  }
+  
+  .image-item {
+    display: flex;
+    flex-direction: column; /* 버튼들이 이미지 아래에 오도록 설정 */
+    align-items: center; /* 가운데 정렬 */
+    text-align: center;
+  }
+  
+  .room-preview {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px; /* 둥근 모서리 추가 (선택 사항) */
+    object-fit: cover; /* 이미지 비율 유지하며 잘라내기 */
+    margin-bottom: 10px;
+  }
+  
+  .select-btn,
+  .delete-btn {
+    margin-top: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .select-btn:hover,
+  .delete-btn:hover {
+    background-color: #eee;
+  }
+  img {
+    object-fit: cover; /* 이미지 비율 유지하며 정사각형 박스에 맞춤 */
+    border: 1px solid #ddd;
+    border-radius: 5px; /* 둥근 모서리 스타일 */
+  }
